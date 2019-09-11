@@ -1,4 +1,4 @@
-git_repo: git@github.com:karim007/ddd-flask-vue-mongodb-ansible-azure.git
+git_repo: https://github.com/karim007/ddd-flask-vue-mongodb-ansible-azure.git
 app_package: Api
 app_callable: app
 app_name: web

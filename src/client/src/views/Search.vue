@@ -140,7 +140,7 @@ methods: {
         this.isLoading = true
 
         // Lazily load input items
-        fetch(`${urlApi}/filter?t=${val}`)
+        fetch(`${urlApi}/filter?name=${val}`)
          .then(res => res.json())
           .then(res => {
             const {entries } = res

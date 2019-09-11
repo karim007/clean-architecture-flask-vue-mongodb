@@ -30,7 +30,6 @@ class Repository:
 class FakeRepository:
       def Filter(self, query):
             path = os.path.dirname(os.path.abspath(__file__))
-            print(path)
             my_file = os.path.join(path, 'FakeData.json')
             with open(my_file) as json_file:
                   data = json.load(json_file)

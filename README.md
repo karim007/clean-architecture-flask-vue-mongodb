@@ -86,9 +86,8 @@ Genrate the SSH keys [https://help.github.com/en/articles/generating-a-new-ssh-k
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ```
-Then Go to the "setup_app_env" role (under the devOp folder) and update the "deploy_private_key"
-
-
+Go to the "setup_app_env" role (under the devOp folder) and update the "deploy_private_key".
+And update the key_data in the "infra-env" role  ( copy paste the public key /home/user/.ssh/id_rsa.pub)
   
 
 <li> To deploy run</li>

@@ -89,7 +89,7 @@
         ssh_password_enabled: false
         ssh_public_keys: 
             - path: /home/karim/.ssh/authorized_keys
-              key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvMl1SDvrr4Sxm2aUv+tEO24i5obXW/ctYhLFl91RDUtzM664nkR/lroqpUl51FcrXo1anGFCnam7i6gY9JDeTTjpizarS3KeZB8D0aXW88KfOKISy7KaegXAN6sKw6Seb11Bu3jbg38VnxLwCrF/625hfMK2FwNuLOiGzPKCT0k+50ZLyxG/QgU+O6XGEdOXu7BlFBzRyR8K9GbNOT2HqtgGXI7GickiYrWXqIlZedPX5ujO//vCjS2ZYtG+reWLezWUSSX0iz+YnRo5PuR9uUM4VU004tWKVff0MrEib4Tiqc9lej2sTtHzCelOUUPidcIImf7FzBWQubBxSaLNnxBz78kx9YO8bTWkgdbE+OpUdmqGxxSxemaWInYcSXqJIH6rfrd2rWSvlDJqo7SOZc3McM/joWNnmSnfLuBLciTgA31zba67M2TEzkczhGBDC9eDoULNUJeSXORClCYsg2XTpoges2hE3/xVF6XEfYOvwLLZZGRKnknLfsW5hQ3DW2jSwGDqQy/pk/SWTnAEZsHgfgac92/4tOyPO/QklNSjGFieVDp52e2p4aNy0fgJn0i29Vx81xHdrdwyvtjjislMXCs1PWRwpv7jso7wfQPFA4q512FmoJpDHUZt2YW5DH17dcWSv1t4zD4invqdJ0wHFSX46MpXGd14xhUpY+w== sellami.karim@hotmail.be"
+              key_data: "ssh-rsa update with your public key"
         network_interfaces: "{{publicInterfaceName}}" 
         image: 
             offer: "{{vm_offer}}"

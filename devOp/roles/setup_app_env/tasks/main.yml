@@ -44,9 +44,9 @@
   git:
     repo: '{{ git_repo }}'
     dest: '{{ app_clone_dir }}'
-    accept_hostkey: yes
-    key_file: /home/karim/.ssh/id_rsa 
-    # version: '{{ git_branch }}'
+    # accept_hostkey: yes
+    # key_file: /home/karim/.ssh/id_rsa  ##if private
+    version: '{{ git_branch }}'
 
 - name: Install requirements.txt
   command: "'{{ virtualenvApp }}/bin/pip' install -r '{{ app_clone_dir }}/src/server/requirements.txt'"
