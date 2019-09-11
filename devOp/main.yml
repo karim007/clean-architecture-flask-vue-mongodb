@@ -1,0 +1,23 @@
+
+
+- name: "Setup vm"
+  hosts: localhost 
+  connection: local 
+  gather_facts: false
+  vars_files:
+    # Inject the secrets as variable on all hosts targeted by this play
+    - "{{ playbook_dir }}/secrets/main.yml"
+  roles:
+    - infra-env
+
+- name: "Setup servers web"
+  hosts: web_servers  
+  sudo: True
+  roles:
+    - common
+    - install_dev_env
+    - setup_app_env
+    - configure_nginx_uwsgi
+    - create_service
+    - start_services
+    - clean_server

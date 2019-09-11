@@ -1,0 +1,61 @@
+---
+- name: Remove base directory (if present)
+  file:
+    path: '{{ base_dir }}'
+    state: absent
+
+- name: Create a virtual environment
+  command: "{{ virtualenv_cmd }} '{{ virtualenvApp }}'"
+
+# - name: Ensure .ssh directory exists.
+#   file:
+#     path: /home/karim/.ssh
+#     state: directory
+#     mode: 0700
+#     owner: www-data
+#     group: www-data
+
+# - name: Generate /etc/ssh/ RSA host key
+#   command : ssh-keygen -q -t rsa -f /etc/ssh/ssh_host_rsa_key -C "" -N ""
+#   args:
+#     creates: /etc/ssh/ssh_host_rsa_key
+
+- name:  copying ssh key  private for github
+  copy:
+    src: /home/karim/.ssh/id_rsa
+    dest: /home/karim/.ssh/
+    owner: karim
+    group: karim
+    mode: 0755
+
+# - name:  copying ssh key  public  authentication
+#   copy:
+#     src: /home/karim/.ssh/id_rsa.pub
+#     dest: /home/karim/.ssh/authorized_keys
+#     owner: karim
+#     group: karim
+#     mode: 0755
+
+# - name: Ensure .ssh directory exists.
+#   file:
+#     path: /home/karim/.ssh/id_rsa
+    
+- name: Clone Git repository
+  git:
+    repo: '{{ git_repo }}'
+    dest: '{{ app_clone_dir }}'
+    accept_hostkey: yes
+    key_file: /home/karim/.ssh/id_rsa 
+    # version: '{{ git_branch }}'
+
+- name: Install requirements.txt
+  command: "'{{ virtualenvApp }}/bin/pip' install -r '{{ app_clone_dir }}/src/server/requirements.txt'"
+
+- name: Set permissions for base directory
+  file:
+    path: '{{ base_dir }}'
+    owner: '{{ uid }}'
+    group: '{{ gid }}'
+    state: directory
+    mode: "777"  
+    recurse: yes

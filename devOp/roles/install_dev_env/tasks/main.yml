@@ -1,0 +1,6 @@
+---
+- name: Install packages (Debian/Ubuntu)
+  apt:
+    name: virtualenv,python,python-pip,python-dev,uwsgi,uwsgi-emperor,uwsgi-plugin-python,nginx,git,wget
+    state: present
+    update_cache: yes

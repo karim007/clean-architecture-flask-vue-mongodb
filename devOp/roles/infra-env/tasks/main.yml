@@ -1,0 +1,98 @@
+  - name: Create resource group
+    azure_rm_resourcegroup:
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        name: "{{rg}}"
+        location: "{{location}}"
+
+  - name: Create virtual network
+    azure_rm_virtualnetwork: 
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        resource_group: "{{rg}}"
+        name: "{{vlan}}"
+        address_prefixes: "{{vlanAddres}}"
+
+  - name: Create subnet
+    azure_rm_subnet: 
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        resource_group: "{{rg}}"
+        name: "{{subnet1Name}}"
+        address_prefix: "{{subnet1Addres}}"
+        virtual_network: "{{vlan}}"
+
+  - name: Create network security group that allows http and ssh
+    azure_rm_securitygroup: 
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        resource_group: "{{rg}}"
+        name: "{{secuGroupHTTP_SSH}}"
+        rules:
+            - name: SSH
+              protocol: Tcp
+              destination_port_range: 22
+              access: Allow
+              priority: 1001
+              direction: Inbound
+
+            - name: HTTP
+              protocol: Tcp
+              destination_port_range: 80
+              access: Allow
+              priority: 1002
+              direction: Inbound
+
+  - name: Create public dynamic ip
+    azure_rm_publicipaddress: 
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        resource_group: "{{rg}}"
+        allocation_method:  Dynamic
+        name: "{{publicIpName}}"
+        domain_name: "{{domainNameSrvWeb}}"
+
+  - name: Create virtual network interface card
+    azure_rm_networkinterface: 
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        resource_group: "{{rg}}"
+        name: "{{publicInterfaceName}}"
+        virtual_network: "{{vlan}}"
+        subnet: "{{subnet1Name}}"
+        public_ip_name: "{{publicIpName}}"
+        security_group: "{{secuGroupHTTP_SSH}}"
+
+  - name: Create VM ubuntu  on Azure
+    azure_rm_virtualmachine: 
+        client_id: "{{ azure_client_id }}"
+        secret: "{{ azure_secret }}"
+        tenant: "{{ azure_tenant_id }}"
+        subscription_id: "{{ azure_subscription_id }}"
+        resource_group: "{{rg}}"
+        name: "{{vm_os}}"
+        vm_size: "{{vm_size}}"
+        admin_username: "{{ linux_ssh_local_username }}"
+        admin_password: "{{ linux_ssh_local_password }}"
+        ssh_password_enabled: false
+        ssh_public_keys: 
+            - path: /home/karim/.ssh/authorized_keys
+              key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvMl1SDvrr4Sxm2aUv+tEO24i5obXW/ctYhLFl91RDUtzM664nkR/lroqpUl51FcrXo1anGFCnam7i6gY9JDeTTjpizarS3KeZB8D0aXW88KfOKISy7KaegXAN6sKw6Seb11Bu3jbg38VnxLwCrF/625hfMK2FwNuLOiGzPKCT0k+50ZLyxG/QgU+O6XGEdOXu7BlFBzRyR8K9GbNOT2HqtgGXI7GickiYrWXqIlZedPX5ujO//vCjS2ZYtG+reWLezWUSSX0iz+YnRo5PuR9uUM4VU004tWKVff0MrEib4Tiqc9lej2sTtHzCelOUUPidcIImf7FzBWQubBxSaLNnxBz78kx9YO8bTWkgdbE+OpUdmqGxxSxemaWInYcSXqJIH6rfrd2rWSvlDJqo7SOZc3McM/joWNnmSnfLuBLciTgA31zba67M2TEzkczhGBDC9eDoULNUJeSXORClCYsg2XTpoges2hE3/xVF6XEfYOvwLLZZGRKnknLfsW5hQ3DW2jSwGDqQy/pk/SWTnAEZsHgfgac92/4tOyPO/QklNSjGFieVDp52e2p4aNy0fgJn0i29Vx81xHdrdwyvtjjislMXCs1PWRwpv7jso7wfQPFA4q512FmoJpDHUZt2YW5DH17dcWSv1t4zD4invqdJ0wHFSX46MpXGd14xhUpY+w== sellami.karim@hotmail.be"
+        network_interfaces: "{{publicInterfaceName}}" 
+        image: 
+            offer: "{{vm_offer}}"
+            publisher: "{{vm_publisher}}"
+            sku: "{{vm_sku}}"
+            version: "{{vm_version}}"

@@ -1,0 +1,21 @@
+---
+rg: "ansible-rg-template"
+location: westeurope
+vlan: lan
+vlanAddres: "10.0.0.0/24"
+subnet1Addres: 10.0.0.0/25
+subnet1Name: 10-0-0-0_25
+publicIpNameWebSrv: publicIP-dynamic
+domainNameSrvWeb: "{{serverName}}" 
+secuGroupHTTP_SSH: "SSH_HTTP_rule"
+publicInterfaceName: NIC-public
+privteIpAddressWebSrv: "10.0.0.10"
+linux_ssh_local_username: "karim"
+linux_ssh_local_password: "toor"
+publicIpName: "public_ip_dynamic"
+vm_os: vm-ubuntu-host-ansible
+vm_size: Standard_DS1_v2
+vm_offer: UbuntuServer
+vm_publisher: Canonical
+vm_sku: '18.04-LTS'
+vm_version: latest

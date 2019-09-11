@@ -1,0 +1,23 @@
+git_repo: git@github.com:karim007/ddd-flask-vue-mongodb-ansible-azure.git
+app_package: Api
+app_callable: app
+app_name: web
+nginx_http_port: 80
+app_dir: '{{app_clone_dir}}/src/server/'
+static: '{{app_dir}}/static'
+uwsgi_module: '{{ app_package }}:{{ app_callable }}'
+uwsgi_processes: 1
+uwsgi_threads: 1
+uwsgi_env: []
+git_branch: master
+deploy_private_key: /home/karim/.ssh/id_rsa.pub 
+nginx_hostless_global_config: no
+uid: www-data
+gid: www-data
+nginx_dir: /etc/nginx/sites-enabled
+uwsgi_dir: /etc/uwsgi-emperor/vassals
+uwsgi_plugins: python,  logfile
+virtualenv_cmd: virtualenv 
+uwsgi_service_name: emperor.uwsgi
+# Disable the default site by removing /etc/nginx/sites-enabled/default.
+nginx_disable_default_site: yes

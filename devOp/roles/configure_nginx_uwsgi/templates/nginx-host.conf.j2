@@ -1,0 +1,21 @@
+server {
+    # for a public HTTP server:
+    listen {{nginx_http_port}};
+    # for a public HTTPS server:
+    # listen 443 ssl;
+    # SSL requires extra configuration!
+    server_name {{ serverName }}.{{domain}};
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:{{ base_dir }}/uwsgi.sock;
+    }
+
+    location /static {
+        alias {{ app_dir }}/static;
+    }
+
+    location /favicon.ico {
+        alias {{ app_dir }}/static/favicon.ico;
+    }
+}

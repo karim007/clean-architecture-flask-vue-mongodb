@@ -1,0 +1,18 @@
+---
+
+#Varaibles that will be available on all linux hosts in this inventory
+linux_servers: 
+  vars: 
+  children:
+    domain_controllers:
+    web_servers:
+
+web_servers:
+  vars:
+    subnet_name: 10.0.0/25
+    vm_size: Standard_DS1_v2
+  hosts:
+    one:
+      host_name: "{{serverName}}.{{domain}}"
+      ansible_host: "{{serverName}}.{{domain}}"
+      private_ip: "{{serverName}}.{{domain}}"

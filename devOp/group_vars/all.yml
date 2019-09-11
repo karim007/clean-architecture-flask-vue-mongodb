@@ -1,0 +1,8 @@
+linux_ssh_local_username: "karim"
+linux_ssh_local_password: "toor"
+privteIpAddressWebSrv: "10.0.0.10"
+serverName: template-python-ddd-vue-mongodb-change-this-name
+domain: westeurope.cloudapp.azure.com
+base_dir: '/home/karim/{{ app_name }}'
+app_clone_dir: '{{base_dir}}/app'
+virtualenvApp: '{{ base_dir }}/env'
