@@ -1,0 +1,931 @@
+
+  [ 
+       { 
+          "url":"https://www.blackbeltwiki.com/americana-armlock",
+          "_id":{ 
+             "$oid":"5d728becc6c958de3e372873"
+          },
+          "name":"Americana Armlock \u2013 Americana Keylock",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/gYwvYCyAyZM?rel=0\" width=\"640\"></iframe>",
+          "id":"100"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/americana-armlock-escapes",
+          "_id":{ 
+             "$oid":"5d728befc6c958de3e372874"
+          },
+          "name":"Americana Armlock Escapes \u2013 Americana Keylock escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/CixH-SzPI5w?rel=0\" width=\"640\"></iframe>",
+          "id":"101"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/anaconda-choke",
+          "_id":{ 
+             "$oid":"5d728bf1c6c958de3e372875"
+          },
+          "name":"Anaconda Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/F453aqkIObQ?rel=0\" width=\"640\"></iframe>",
+          "id":"102"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/anaconda-choke-escapes",
+          "_id":{ 
+             "$oid":"5d728bf4c6c958de3e372876"
+          },
+          "name":"Anaconda Choke Escapes \u2013 Anaconda Choke defense or counter",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/xGy8fIapTbk?rel=0\" width=\"640\"></iframe>",
+          "id":"103"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/ankle-lock",
+          "_id":{ 
+             "$oid":"5d728bf6c6c958de3e372877"
+          },
+          "name":"Ankle Lock \u2013 Achilles Lock or Foot Lock",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/sOMG4T1KJ30?rel=0\" width=\"640\"></iframe>",
+          "id":"104"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/ankle-lock-counter",
+          "_id":{ 
+             "$oid":"5d728bf9c6c958de3e372878"
+          },
+          "name":"Ankle Lock Counter \u2013 Achilles Lock counter or Foot Lock counter",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/5IlfwsuM_W0\" width=\"640\"></iframe>",
+          "id":"105"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/armbar-from-guard",
+          "_id":{ 
+             "$oid":"5d728bfcc6c958de3e372879"
+          },
+          "name":"Armbar From Guard",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/bRXkLmT6g2Q?rel=0\" width=\"640\"></iframe>",
+          "id":"106"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/armbar-from-the-mounted-position",
+          "_id":{ 
+             "$oid":"5d728bffc6c958de3e37287a"
+          },
+          "name":"Armbar From The Mounted Position \u2013 Armbar from mount",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/hh_sEqdJLV0\" width=\"640\"></iframe>",
+          "id":"107"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/armbar-from-side-control",
+          "_id":{ 
+             "$oid":"5d728c02c6c958de3e37287b"
+          },
+          "name":"Armbar From Side Control",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/G0cb8Q9Kgno?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"108"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/armbar-defense",
+          "_id":{ 
+             "$oid":"5d728c05c6c958de3e37287c"
+          },
+          "name":"Armbar Defense \u2013 Armbar defenses or Armbar escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/u1crBYLLaVI?rel=0\" width=\"640\"></iframe>",
+          "id":"109"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/arm-triangle",
+          "_id":{ 
+             "$oid":"5d728c08c6c958de3e37287d"
+          },
+          "name":"Arm Triangle",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/tW7MX5G66vA?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"110"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/armless-triangle",
+          "_id":{ 
+             "$oid":"5d728c0cc6c958de3e37287e"
+          },
+          "name":"Armless Triangle",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/jfRnKEYrB2I?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"111"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/banana-split",
+          "_id":{ 
+             "$oid":"5d728c0fc6c958de3e37287f"
+          },
+          "name":"Banana Split",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/xwWTYQok3zM?rel=0\" width=\"640\"></iframe>",
+          "id":"112"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/bicep-slicer",
+          "_id":{ 
+             "$oid":"5d728c12c6c958de3e372880"
+          },
+          "name":"Bicep Slicer or Bicep Crusher",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/2T_J-LtII6o?rel=0\" width=\"640\"></iframe>",
+          "id":"113"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/brabo-choke",
+          "_id":{ 
+             "$oid":"5d728c16c6c958de3e372881"
+          },
+          "name":"Brabo Choke or D\u2019Arce Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/WODZrnjBP8g?rel=0\" width=\"640\"></iframe>",
+          "id":"114"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/brabo-choke-escapes",
+          "_id":{ 
+             "$oid":"5d728c1ac6c958de3e372882"
+          },
+          "name":"Brabo Choke Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/TX9x4hTpXog?rel=0\" width=\"640\"></iframe>",
+          "id":"115"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/butterfly-guard",
+          "_id":{ 
+             "$oid":"5d728c1dc6c958de3e372883"
+          },
+          "name":"Butterfly Guard",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/LjTMt9MFS-A\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"116"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/butterfly-guard-counter",
+          "_id":{ 
+             "$oid":"5d728c21c6c958de3e372884"
+          },
+          "name":"Butterfly Guard Counter",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/FTVHVUktuPc\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"117"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/butterfly-sweep",
+          "_id":{ 
+             "$oid":"5d728c24c6c958de3e372885"
+          },
+          "name":"Butterfly Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/3aH8aNK08ds?rel=0\" width=\"640\"></iframe>",
+          "id":"118"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/calf-crusher",
+          "_id":{ 
+             "$oid":"5d728c29c6c958de3e372886"
+          },
+          "name":"Calf Crusher or Calf Slicer",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/TWq2mNVlUAo?rel=0\" width=\"640\"></iframe>",
+          "id":"119"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/clock-choke",
+          "_id":{ 
+             "$oid":"5d728c2dc6c958de3e372887"
+          },
+          "name":"Clock Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/g1F3i_PsJ0s?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"120"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/clock-choke-escapes",
+          "_id":{ 
+             "$oid":"5d728c30c6c958de3e372888"
+          },
+          "name":"Clock Choke Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/A4zH8ll5a6A?rel=0\" width=\"640\"></iframe>",
+          "id":"121"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/cobra-choke",
+          "_id":{ 
+             "$oid":"5d728c33c6c958de3e372889"
+          },
+          "name":"Cobra Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/tiXexwL5DIo?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"122"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/cross-collar-choke",
+          "_id":{ 
+             "$oid":"5d728c37c6c958de3e37288a"
+          },
+          "name":"Cross Collar Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/TSybO7VM9LI\" width=\"640\"></iframe>",
+          "id":"123"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/crucifix-choke",
+          "_id":{ 
+             "$oid":"5d728c3ac6c958de3e37288b"
+          },
+          "name":"Crucifix Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/641yvmGiP1w?rel=0\" width=\"640\"></iframe>",
+          "id":"124"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/brabo-choke",
+          "_id":{ 
+             "$oid":"5d728c3dc6c958de3e37288c"
+          },
+          "name":"D\u2019Arce Choke or Brabo Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/WODZrnjBP8g?rel=0\" width=\"640\"></iframe>",
+          "id":"125"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/double-ankle-grab-sweep",
+          "_id":{ 
+             "$oid":"5d728c40c6c958de3e37288d"
+          },
+          "name":"Double Ankle Grab Sweep \u2013 Double Ankle Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/zyOFvdBcv9M\" width=\"640\"></iframe>",
+          "id":"126"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/double-ankle-sweep-counter",
+          "_id":{ 
+             "$oid":"5d728c44c6c958de3e37288e"
+          },
+          "name":"Double Ankle Sweep Counter \u2013 Counter to the Double Ankle Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/c8E22NsKhkY\" width=\"640\"></iframe>",
+          "id":"127"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/double-leg-takedown",
+          "_id":{ 
+             "$oid":"5d728c47c6c958de3e37288f"
+          },
+          "name":"Double Leg & Single Leg Takedown",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/yoQzKMc3IlM\" width=\"640\"></iframe>",
+          "id":"128"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/standing-elbow-crank",
+          "_id":{ 
+             "$oid":"5d728c4ac6c958de3e372890"
+          },
+          "name":"Elbow Crank",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/d58RVJDubHk\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"129"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/elbow-escape-from-mount",
+          "_id":{ 
+             "$oid":"5d728c4dc6c958de3e372891"
+          },
+          "name":"Elbow Escape From Mount",
+          "iframe":"None",
+          "id":"130"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/elevator-sweep",
+          "_id":{ 
+             "$oid":"5d728c51c6c958de3e372892"
+          },
+          "name":"Elevator Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/1SHqZc_PEOw\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"131"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/electric-chair",
+          "_id":{ 
+             "$oid":"5d728c54c6c958de3e372893"
+          },
+          "name":"Electric Chair",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/8Pegu58bFyM?rel=0\" width=\"640\"></iframe>",
+          "id":"132"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/ezekiel-choke",
+          "_id":{ 
+             "$oid":"5d728c57c6c958de3e372894"
+          },
+          "name":"Ezekiel Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/heNTKOtlpTU?rel=0\" width=\"640\"></iframe>",
+          "id":"133"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/ezekiel-choke-defense",
+          "_id":{ 
+             "$oid":"5d728c5cc6c958de3e372895"
+          },
+          "name":"Ezekiel Choke Defense",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/AaZPuF7ppY8?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"134"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/flying-armbar",
+          "_id":{ 
+             "$oid":"5d728c60c6c958de3e372896"
+          },
+          "name":"Flying Armbar",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/76bEAM5MjrQ?rel=0\" width=\"640\"></iframe>",
+          "id":"135"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/kani-basami",
+          "_id":{ 
+             "$oid":"5d728c63c6c958de3e372897"
+          },
+          "name":"Flying Scissors or Scissors Throw",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/XRklGgwpbj0?rel=0\" width=\"640\"></iframe>",
+          "id":"136"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/flying-triangle-choke",
+          "_id":{ 
+             "$oid":"5d728c67c6c958de3e372898"
+          },
+          "name":"Flying Triangle Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/0_ZTBE6zhXA?rel=0\" width=\"640\"></iframe>",
+          "id":"137"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/gogoplata",
+          "_id":{ 
+             "$oid":"5d728c6bc6c958de3e372899"
+          },
+          "name":"Gogoplata",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/pFZxBSa1vLY?rel=0\" width=\"640\"></iframe>",
+          "id":"138"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/granby-roll",
+          "_id":{ 
+             "$oid":"5d728c6fc6c958de3e37289a"
+          },
+          "name":"Granby Roll",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/xnsL4xY-7CA?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"139"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/guillotine-choke",
+          "_id":{ 
+             "$oid":"5d728c73c6c958de3e37289b"
+          },
+          "name":"Guillotine Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/jTggeOsMVyc\" width=\"640\"></iframe>",
+          "id":"140"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/guillotine-choke-escapes",
+          "_id":{ 
+             "$oid":"5d728c76c6c958de3e37289c"
+          },
+          "name":"Guillotine Choke Escapes \u2013 Defenses against the Guillotine Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/NtbqRssamvA\" width=\"640\"></iframe>",
+          "id":"141"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/half-nelson",
+          "_id":{ 
+             "$oid":"5d728c7ac6c958de3e37289d"
+          },
+          "name":"Half Nelson",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/Db59z0w4c-c\" width=\"640\"></iframe>",
+          "id":"142"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/hammerlock",
+          "_id":{ 
+             "$oid":"5d728c7ec6c958de3e37289e"
+          },
+          "name":"Hammerlock",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/M0x5yDeNGvs?rel=0\" width=\"640\"></iframe>",
+          "id":"143"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/handstand-sweep",
+          "_id":{ 
+             "$oid":"5d728c81c6c958de3e37289f"
+          },
+          "name":"Handstand Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/MLjipkGyjmI\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"144"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/headlocks",
+          "_id":{ 
+             "$oid":"5d728c87c6c958de3e3728a0"
+          },
+          "name":"Headlocks",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/DArFl0PAeTU?rel=0\" width=\"640\"></iframe>",
+          "id":"145"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/headlock-escapes",
+          "_id":{ 
+             "$oid":"5d728c8bc6c958de3e3728a1"
+          },
+          "name":"Headlock Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/N5leNdeBHWI?rel=0\" width=\"640\"></iframe>",
+          "id":"146"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/heel-hook",
+          "_id":{ 
+             "$oid":"5d728c8fc6c958de3e3728a2"
+          },
+          "name":"Heel Hook",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/pM6X0ePHi0o?rel=0\" width=\"640\"></iframe>",
+          "id":"147"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/heel-hook-escapes",
+          "_id":{ 
+             "$oid":"5d728c92c6c958de3e3728a3"
+          },
+          "name":"Heel Hook Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/BArdI4pQVV0?rel=0\" width=\"640\"></iframe>",
+          "id":"148"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/helicopter-armbar",
+          "_id":{ 
+             "$oid":"5d728c96c6c958de3e3728a4"
+          },
+          "name":"Helicopter Armbar",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/1TZPTZ_JTZM?rel=0\" width=\"640\"></iframe>",
+          "id":"149"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/hip-throw",
+          "_id":{ 
+             "$oid":"5d728c9ac6c958de3e3728a5"
+          },
+          "name":"Hip Throw",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/ongeKGyAJwM\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"150"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/hook-sweep",
+          "_id":{ 
+             "$oid":"5d728c9ec6c958de3e3728a6"
+          },
+          "name":"Hook Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/_SDPvk5Brpo?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"151"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/kimura-from-the-guard",
+          "_id":{ 
+             "$oid":"5d728ca1c6c958de3e3728a7"
+          },
+          "name":"Kimura From The Guard",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/HA-2NRuTLkw\" width=\"640\"></iframe>",
+          "id":"152"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/kimura-from-the-side-mount",
+          "_id":{ 
+             "$oid":"5d728ca5c6c958de3e3728a8"
+          },
+          "name":"Kimura From The Side Mount",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/HA-2NRuTLkw\" width=\"640\"></iframe>",
+          "id":"153"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/kimura-defense",
+          "_id":{ 
+             "$oid":"5d728ca8c6c958de3e3728a9"
+          },
+          "name":"Kimura Defense",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/pJzAIggf8TE\" width=\"640\"></iframe>",
+          "id":"154"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/knee-bar-from-side-control",
+          "_id":{ 
+             "$oid":"5d728cacc6c958de3e3728aa"
+          },
+          "name":"Knee Bar from Side Control",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/g92JEWFTSs4\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"155"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/knee-bar-defense",
+          "_id":{ 
+             "$oid":"5d728cafc6c958de3e3728ab"
+          },
+          "name":"Knee Bar Defense",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/HwU4-0-JBUM\" width=\"640\"></iframe>",
+          "id":"156"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/knee-on-belly-escape",
+          "_id":{ 
+             "$oid":"5d728cb2c6c958de3e3728ac"
+          },
+          "name":"Knee On Belly Escape \u2013 Knee on stomach escape",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/pk97YfUdfPU\" width=\"640\"></iframe>",
+          "id":"157"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/macarrao-sweep",
+          "_id":{ 
+             "$oid":"5d728cb5c6c958de3e3728ad"
+          },
+          "name":"Macarrao Sweep \u2013 Another overhead sweep technique",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/hJ4BKCgs4mk?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"158"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/neck-crank",
+          "_id":{ 
+             "$oid":"5d728cb9c6c958de3e3728ae"
+          },
+          "name":"Neck Crank",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/AwlKecL-Lvg?rel=0\" width=\"640\"></iframe>",
+          "id":"159"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/north-south-choke",
+          "_id":{ 
+             "$oid":"5d728cbcc6c958de3e3728af"
+          },
+          "name":"North South Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/RkFHJHC58qc?rel=0\" width=\"640\"></iframe>",
+          "id":"160"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/north-south-escapes",
+          "_id":{ 
+             "$oid":"5d728cc0c6c958de3e3728b0"
+          },
+          "name":"North South Escapes \u2013 A variety of north south escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/_35h4Betuf4?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"161"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/omoplata-shoulder-lock",
+          "_id":{ 
+             "$oid":"5d728cc5c6c958de3e3728b1"
+          },
+          "name":"Omoplata Shoulder Lock",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/O3JrFAaE8uo\" width=\"640\"></iframe>",
+          "id":"162"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/overhead-sweep",
+          "_id":{ 
+             "$oid":"5d728cc7c6c958de3e3728b2"
+          },
+          "name":"Overhead Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/JvsE23Y1MUc?rel=0\" width=\"640\"></iframe>",
+          "id":"163"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/peruvian-necktie",
+          "_id":{ 
+             "$oid":"5d728ccac6c958de3e3728b3"
+          },
+          "name":"Peruvian Necktie",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/XCakEyznRw8?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"164"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/push-sweep",
+          "_id":{ 
+             "$oid":"5d728ccdc6c958de3e3728b4"
+          },
+          "name":"Push Sweep \u2013 Push kick sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/_j-qW4I1FWs\" width=\"640\"></iframe>",
+          "id":"165"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rear-mount",
+          "_id":{ 
+             "$oid":"5d728cd1c6c958de3e3728b5"
+          },
+          "name":"Rear Mount",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/aGbIknf1Di8?rel=0\" width=\"640\"></iframe>",
+          "id":"166"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rear-mount-escapes",
+          "_id":{ 
+             "$oid":"5d728cd5c6c958de3e3728b6"
+          },
+          "name":"Rear Mount Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/x91GF7MY5F4?rel=0\" width=\"640\"></iframe>",
+          "id":"167"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rear-naked-choke",
+          "_id":{ 
+             "$oid":"5d728cd9c6c958de3e3728b7"
+          },
+          "name":"Rear Naked Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/LppnEfRoFIM\" width=\"640\"></iframe>",
+          "id":"168"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rear-naked-choke-escapes",
+          "_id":{ 
+             "$oid":"5d728cdcc6c958de3e3728b8"
+          },
+          "name":"Rear Naked Choke Escapes \u2013 Rear naked choke defense",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/OHLTGpdkH-E\" width=\"640\"></iframe>",
+          "id":"169"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rear-takedown-us-army-combatives",
+          "_id":{ 
+             "$oid":"5d728ce0c6c958de3e3728b9"
+          },
+          "name":"Rear Takedown",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/NxVXdi9BCEM\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"170"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rolling-armbar",
+          "_id":{ 
+             "$oid":"5d728ce4c6c958de3e3728ba"
+          },
+          "name":"Rolling Armbar",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/_TRYcn2Np1c?rel=0\" width=\"640\"></iframe>",
+          "id":"171"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rolling-knee-bar",
+          "_id":{ 
+             "$oid":"5d728ce7c6c958de3e3728bb"
+          },
+          "name":"Rolling Knee Bar",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/27u3OylXY38?rel=0\" width=\"640\"></iframe>",
+          "id":"172"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/rubber-guard",
+          "_id":{ 
+             "$oid":"5d728cebc6c958de3e3728bc"
+          },
+          "name":"Rubber Guard",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/ht6VYMYXHsI?rel=0\" width=\"640\"></iframe>",
+          "id":"173"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/sambo-knee-bar",
+          "_id":{ 
+             "$oid":"5d728cefc6c958de3e3728bd"
+          },
+          "name":"Sambo Knee Bar",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/lSz_n0AZDmA?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"174"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/sambo-leg-lock",
+          "_id":{ 
+             "$oid":"5d728cf2c6c958de3e3728be"
+          },
+          "name":"Sambo Leg Lock",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/_s6kUJefYEA?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"175"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/scarf-hold",
+          "_id":{ 
+             "$oid":"5d728cf6c6c958de3e3728bf"
+          },
+          "name":"Scarf Hold",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/lwoZ3qxqgCg?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"176"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/scarf-hold-escapes",
+          "_id":{ 
+             "$oid":"5d728cf9c6c958de3e3728c0"
+          },
+          "name":"Scarf Hold Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/zcF76x7PJG0?rel=0\" width=\"640\"></iframe>",
+          "id":"177"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/scissors-sweep",
+          "_id":{ 
+             "$oid":"5d728cfdc6c958de3e3728c1"
+          },
+          "name":"Scissors Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/IUviW1Ejp2w\" width=\"640\"></iframe>",
+          "id":"178"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/sickle-sweep",
+          "_id":{ 
+             "$oid":"5d728d03c6c958de3e3728c2"
+          },
+          "name":"Sickle Sweep",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/MV0iZDE1izc?rel=0\" width=\"640\"></iframe>",
+          "id":"179"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/side-control-escapes",
+          "_id":{ 
+             "$oid":"5d728d08c6c958de3e3728c3"
+          },
+          "name":"Side Control Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/ef1bePtwNGI?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"180"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/single-leg-takedown",
+          "_id":{ 
+             "$oid":"5d728d0cc6c958de3e3728c4"
+          },
+          "name":"Single Leg Takedown",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/hRHaVzyNHfg\" width=\"640\"></iframe>",
+          "id":"181"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/sleeve-choke",
+          "_id":{ 
+             "$oid":"5d728d12c6c958de3e3728c5"
+          },
+          "name":"Sleeve Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/PZ99OrGLSLo?rel=0\" width=\"640\"></iframe>",
+          "id":"182"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/spider-guard",
+          "_id":{ 
+             "$oid":"5d728d19c6c958de3e3728c6"
+          },
+          "name":"Spider Guard",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/oxeZThdCoW8?rel=0\" width=\"640\"></iframe>",
+          "id":"183"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/spider-guard-sweeps",
+          "_id":{ 
+             "$oid":"5d728d1fc6c958de3e3728c7"
+          },
+          "name":"Spider Guard Sweeps",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/oplKZlUapAg?rel=0\" width=\"640\"></iframe>",
+          "id":"184"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/sprawl",
+          "_id":{ 
+             "$oid":"5d728d25c6c958de3e3728c8"
+          },
+          "name":"Sprawl",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/i_-oUCpGOWU\" width=\"640\"></iframe>",
+          "id":"185"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/standing-elbow-crank",
+          "_id":{ 
+             "$oid":"5d728d28c6c958de3e3728c9"
+          },
+          "name":"Standing Elbow Crank",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/d58RVJDubHk\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"186"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/standing-guard-pass",
+          "_id":{ 
+             "$oid":"5d728d2cc6c958de3e3728ca"
+          },
+          "name":"Standing Guard Pass",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/SCSkdf3rnRc\" width=\"640\"></iframe>",
+          "id":"187"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/suplex",
+          "_id":{ 
+             "$oid":"5d728d2fc6c958de3e3728cb"
+          },
+          "name":"Suplex",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/uIdGDsQmgNs?rel=0\" width=\"640\"></iframe>",
+          "id":"188"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/10-finger-choke",
+          "_id":{ 
+             "$oid":"5d728d33c6c958de3e3728cc"
+          },
+          "name":"10 Finger Choke or Ten finger guillotine",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/vt5sFrhENGQ?rel=0\" width=\"640\"></iframe>",
+          "id":"189"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/push-pull-pivot",
+          "_id":{ 
+             "$oid":"5d728d36c6c958de3e3728cd"
+          },
+          "name":"The Three Fundamentals of Takedown",
+          "iframe":"None",
+          "id":"190"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/toe-hold",
+          "_id":{ 
+             "$oid":"5d728d3ac6c958de3e3728ce"
+          },
+          "name":"Toe Hold",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/1lYsi1Y-rGY?rel=0\" width=\"640\"></iframe>",
+          "id":"191"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/toe-hold-escapes",
+          "_id":{ 
+             "$oid":"5d728d3ec6c958de3e3728cf"
+          },
+          "name":"Toe Hold Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/f4OOg_35Xjk\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"192"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/triangle-choke",
+          "_id":{ 
+             "$oid":"5d728d41c6c958de3e3728d0"
+          },
+          "name":"Triangle Choke",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/FbXunEbkf8E\" width=\"640\"></iframe>",
+          "id":"193"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/triangle-choke-escapes",
+          "_id":{ 
+             "$oid":"5d728d45c6c958de3e3728d1"
+          },
+          "name":"Triangle Choke Escapes",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/szAvJFvIzx4?rel=0\" width=\"640\"></iframe>",
+          "id":"194"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/escape-from-a-triangle-choke-from-guard",
+          "_id":{ 
+             "$oid":"5d728d48c6c958de3e3728d2"
+          },
+          "name":"Triangle Choke Escape From Guard \u2013 Defense against triangle choke",
+          "iframe":"None",
+          "id":"195"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/do-jime",
+          "_id":{ 
+             "$oid":"5d728d4cc6c958de3e3728d3"
+          },
+          "name":"Trunk Strangle or Trunk Squeeze \u2013 Judo\u2019s Do-Jime",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/5thavLVKDoE\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"196"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/turtle-attacks",
+          "_id":{ 
+             "$oid":"5d728d50c6c958de3e3728d4"
+          },
+          "name":"Turtle Attacks \u2013 How to attack an opponent who is in the turtle guard/position.",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/xOb5MCiwjqs?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"197"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/turtle-escapes",
+          "_id":{ 
+             "$oid":"5d728d53c6c958de3e3728d5"
+          },
+          "name":"Turtle Escapes \u2013 How to escape an attacker when you are in the turtle guard/position.",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/SwCFHD48Eq4?rel=0\" width=\"640\"><span class=\"mce_SELRES_start\" data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\">\ufeff</span></iframe>",
+          "id":"198"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/turtle-guard",
+          "_id":{ 
+             "$oid":"5d728d57c6c958de3e3728d6"
+          },
+          "name":"Turtle Guard or Turtle position",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"480\" src=\"https://www.youtube.com/embed/HtHA9AAPrHg?rel=0\" width=\"640\"></iframe>",
+          "id":"199"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/twister",
+          "_id":{ 
+             "$oid":"5d728d5ac6c958de3e3728d7"
+          },
+          "name":"Twister",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/PN8TfmV1UzY?rel=0\" width=\"640\"></iframe>",
+          "id":"200"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/x-guard",
+          "_id":{ 
+             "$oid":"5d728d5ec6c958de3e3728d8"
+          },
+          "name":"X-Guard",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/I_plwm61noM?rel=0\" width=\"640\"></iframe>",
+          "id":"201"
+       },
+       { 
+          "url":"https://www.blackbeltwiki.com/x-guard-sweeps",
+          "_id":{ 
+             "$oid":"5d728d62c6c958de3e3728d9"
+          },
+          "name":"X-Guard Sweeps",
+          "iframe":"<iframe allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/Nk02F1eydHM?rel=0\" width=\"640\"></iframe>",
+          "id":"202"
+       }
+    ]
+ 

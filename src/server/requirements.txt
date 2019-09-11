@@ -1,0 +1,12 @@
+flask
+requests
+flask_swagger_ui
+bson
+pymongo
+flask_pymongo
+pika
+flask_jwt
+werkzeug
+flask-cors
+simplejson
+copyfile

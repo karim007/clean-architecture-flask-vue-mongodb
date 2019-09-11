@@ -1,0 +1,191 @@
+{                                                                                       
+    "openapi": "3.0.0",
+    "info": {
+        "description": "swagger-doc",
+        "version": "1.0.0",
+        "title": "swagger-doc",
+        "contact": {
+            "email": "k@k.k"
+        },
+        "licence": {
+            "name": "MIT", 
+            "url": "jjj"
+        }
+    }, 
+    "servers":[
+        {
+            "url":"/"
+        }
+    ],
+    "tags":[
+        {
+            "name":"Book Component", 
+            "description":"book feature"
+        }
+    ],
+
+    "paths":{
+        "/filter":{
+            "get":{
+                "tags":[
+                    "Book request"
+                ], 
+                "summary":"Returns books", 
+                "parameters": [
+                    {
+                      "name": "name",
+                      "in": "query",
+                      "required": true,
+                      "schema": { "type": "string" }
+                    }
+                  ],
+                "responses":{
+                    "200":{
+                        "description":"ok", 
+                        "schema":{
+                            "type": "boolean"
+                        }
+                        
+                    },
+                    "500": {
+                        "description": "Server error",
+                        "schema": {
+                            "type": "false"
+                        }
+                    }
+                }
+            } 
+        }, 
+        "/Post":{
+            "post":{
+                "tags":[
+                    "Book request"
+                ], 
+                "description": "Creates a new pet in the store.  Duplicates are allowed",
+
+                
+                
+                    "requestBody": {
+                        "content": {
+                          "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Book"
+                              }
+                          }
+                        }
+                    },
+                
+                
+                    "responses": {
+                      "200": {
+                        "description": "id book response",
+                        "schema": {
+                            "type": "string"
+                        }
+                      },
+                      "default": {
+                        "description": "unexpected error",
+                        "schema": {
+                        }
+                      }
+                    }
+                  
+            } 
+        }
+    },
+    "components": {
+        "schemas": {
+          "Book": {
+
+            "type": "object",
+            "properties": {
+            "id": {
+                "type": "string"
+            },
+              "title": {
+                "type": "string"
+              },
+              "author": {
+                "type": "string"
+              }, 
+              "img": {
+                "type": "string"
+              }
+            }
+          }
+          
+        },
+        "parameters": {
+          "Book": {
+            "in": "body",
+            "name": "Book",
+            "description": "Book to post",
+            "required": true,
+            "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "format": "string"
+                  },
+                  "author": {
+                    "type": "string"
+                  }, 
+                  "img": {
+                    "type": "string"
+                  }
+                }
+            }
+          },
+          "limitParam": {
+            "name": "limit",
+            "in": "query",
+            "description": "max records to return",
+            "required": true,
+            "schema" : {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        },
+        "responses": {
+          "NotFound": {
+            "description": "Entity not found."
+          },
+          "IllegalInput": {
+            "description": "Illegal input for operation."
+          },
+          "GeneralError": {
+            "description": "General Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GeneralError"
+                }
+              }
+            }
+          }
+        },
+        "securitySchemes": {
+          "api_key": {
+            "type": "apiKey",
+            "name": "api_key",
+            "in": "header"
+          },
+          "petstore_auth": {
+            "type": "oauth2",
+            "flows": {
+              "implicit": {
+                "authorizationUrl": "http://example.org/api/oauth/dialog",
+                "scopes": {
+                  "write:pets": "modify pets in your account",
+                  "read:pets": "read your pets"
+                }
+              }
+            }
+          }
+        }
+      }
+}
+
+
